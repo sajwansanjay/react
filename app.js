@@ -1,9 +1,12 @@
+import React from "react";
+import ReactDOM from "react-dom/client";
+
 const container = React.createElement('div', {
     id: "outerContainer"
 }, [
     React.createElement('div', {
         class: 'd-flex align-items-center'
-    }, [React.createElement('h1', {}, "Hello this is a Heading 1"),
+    }, [React.createElement('h1', {}, "Hello this is a learning lesson"),
         React.createElement('h2', {class: 'h-2'}, "Hello this is a heading 2")
     ]),React.createElement('div', {
         class: 'd-flex align-items-center'
